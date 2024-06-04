@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Ou seja os tipos de alinhamento, são 3 sendo o alinhamento a esquerda o padrão que ja vem no navegador,o Justify que seria o alinhamento a esquerda e a direita meio que centralizando as linhas de um texto por exemplo e fim o a direita
+
+*/
+h1{
+    text-align: center;
+}
+h2{
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2{
+    font: normal bold 3em 'Work Sans';
+}
+
+/*ShortHand do font
+font-style -> font-weight -> font-size -> font-family
+Basicamente voce coloca todos os parametros em uma só linha, seguindo a ordem a cima
+*/
+
+/*Font-weight nada mais é que deixar a font mais ou menos ''gordinha'' ou negrita, mas OBS nem toda fonte possui as caracteristicas pra usar o font-weigth*/
+
+
+/*No final da cada fonte family, use uma font padrão baseada na fonte que voce escolheu, se ela é mono espaçada(monospace),se ela é sem serifa(sans-serif), com serifada(serif) */

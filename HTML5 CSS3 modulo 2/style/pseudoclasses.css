@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#d1, #d2, #d3{
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#d1:hover{
+    background-color: green;
+}
+
+#d2:hover{
+    background-color: blue;
+}
+
+#d3:hover{
+    background-color: red;
+}
+
+span:hover{
+    cursor:pointer;
+    color: green;
+}
+h2{
+    font-size: 1em;
+}
+
+div:hover{
+    color: red;
+}
+
+div > p{
+
+    display: none;
+}
+
+div:hover > p{
+    font-size: 1.5em;
+    color: white;
+    display: block;
+    background-color: pink;
+}

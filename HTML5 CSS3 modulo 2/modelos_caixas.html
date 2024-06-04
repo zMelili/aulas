@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixas</title>
+</head>
+<body>
+    <!--O Sentindo de padding ou de margin sempre vai ser no sentido
+    horario Top>right>bottom>left-->
+    <style>
+        h1{
+            background-color: lightgrey;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+            
+            /*Shorthand de border, se resume a apenas border:10px solid red
+            resumiu border-width,border-style e border-color,OBS:TEM QUE SER NESSA ORDEM
+            ----------------------------------------------------------------------*/
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            /*Resumindo ^^^^ oque está em cima para margin:10px; */
+            /*Quando se falar de margin o shorthand seria margin:10px; apenas um valor se caso os outros forem iguais, margin:10px 20px; com dois valores o primeiro será cima baixo, e o segundo direita e esquerda
+            ----------------------------------------------------------------------*/
+
+            padding-top:10px ;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            /*Resumindo ^^^^ oque está em cima para padding:10px 20px;*/
+             /*Quando se falar de padding o shorthand seria padding:10px; apenas um valor se caso os outros forem iguais, padding:10px 20px; com dois valores o primeiro será cima baixo, e o segundo direita e esquerda
+             ---------------------------------------------------------------------*/
+        }
+
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos tambem são exemplos de box-level 
+        <a href="#">Já links são exemplos de inline-level</a>
+    </p>
+</body>
+</html>

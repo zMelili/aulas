@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Para fazer gradiente usa-se background-image, seguido da direção e as cores*/
+h2{
+    padding: 50px;
+    background-image: linear-gradient(to right,#3b2203,#E0774D,#AF0B0C,#CD4253,#18000D );
+}
+
+h3{
+    padding: 50px;
+    background-image: linear-gradient(to right,#380CB9,#6D57C7,#B761CC,#B4C8D4,#9DD3D8);
+}
+h4{
+    padding: 50px;
+    background-image:linear-gradient(to right,#FBD696,#AB2327,#181818,#424242 );
+}

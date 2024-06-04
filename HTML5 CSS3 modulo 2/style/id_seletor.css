@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* No HTML o seletor se identifica como ID ou seja <h1 id='principal'>
+   No CSS se quisermos chamar esse ID usamos h1#principal ou #principal{}
+   -----------------------------------------------------------------------
+   No HTML tudo que for class='principal'
+   No CSS usamos o .principal para chamarmos a class
+
+   Lembrando pode ter mas de uma class no mesmo seleto
+   <h1 class= "principal destaque"> esse espaço entre o principal e o destaque faz com que se aplique duas classe o principal e o destaque
+*/
+
+body{
+    background-color: rgb(195, 248, 184);
+}
+#principal{
+    color: black;
+    text-align: center;
+}
+h1{
+    color: green;
+    padding: 5px;
+}
+
+h2{
+    padding: 10px;
+    color: rgb(49, 230, 49);
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red;
+}
+
+.destaque{
+    background-color: rgba(71, 165, 42, 0.39);
+}
