@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.quadrado{
+    display: inline-block;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px black solid;
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px 0px 10px;
+}
+
+div#q1{
+    background-color: #4D0C83;
+}
+
+div#q2{
+    background-image: linear-gradient(to right, #6247AA,#A06CD5,#b772df);
+}
+
+div#q3{
+    background-image: url();
+}
