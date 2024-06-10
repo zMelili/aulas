@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Na hora de colocar background-position, lembresse que primeiro são as colunas dps as linhas*/
+
+body{
+    height: 98vh;
+    border: 1px dashed black;
+    background-image:url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png') ;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    /*left bottom,left center, left top>Esquerda
+      center top,center bottom,center center>Centro
+      right bottom,right center,right top>Direita*/
+}

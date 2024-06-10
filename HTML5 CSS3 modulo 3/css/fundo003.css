@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.bloco{
+    background-image: url(../imagens/wallpaper002.jpg);
+    margin: 10px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+div#q1{
+    background-position: left top;
+}
+
+div#q2{
+    background-position: left center;
+}
+
+div#q3{
+    background-position: right bottom;
+}
+
+div#q4{
+    background-position: center center;
+}

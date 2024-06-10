@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.pcguia.pt/wp-content/uploads/2021/10/Wallpaper_2.jpg);
+    background-size: 100%;
+}
+
+h1{
+    color: rgb(224, 19, 19);
+}

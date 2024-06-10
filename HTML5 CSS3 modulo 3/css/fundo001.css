@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(../imagens/wallpaper004.jpg);
+}
+
 div.quadrado{
     display: inline-block;
     border-radius: 20px;
@@ -23,5 +27,6 @@ div#q2{
 }
 
 div#q3{
-    background-image: url();
+    background-image: url(../imagens/pattern001.png);
+    
 }
