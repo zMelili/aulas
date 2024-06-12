@@ -1,0 +1,37 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-image: url(../imagens/target001.png);
+    background-size: 100% 100%;
+
+    position: relative;
+    height: 96vh;
+    background-color: red;
+    padding: 10px;
+    /*Essa operação de container(contido) e Conteudo sempre será
+    seguido de "Container com position em relative"
+    E o "Conteudo com o position em absolute" para termos controle do left e top para centralizar eles juntos da propriedade
+    transform:translate(); 
+    translate >translação movimento*/
+}
+
+#conteudo{
+    background-image: url(../imagens/target001.png);
+    background-size: 100% 100%;
+
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: purple;
+
+    left: 50%;
+    top: 50%;
+
+    /*OBS:Quando trabalhamos com Tranform:translate() os valores
+    dentro podem tanto ser em px qnt em %*/
+    transform: translate(-50%,-50%);
+}

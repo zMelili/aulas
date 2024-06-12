@@ -3,14 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*vinculo ou attachment é um propriedade do background*/
 body{
-    height: 100vh;
+    background: black url(../imagens/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    /*height: 100vh;
     background-color: black;
     background-image: url(../imagens/wallpaper002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; /*atributo cover seria ''Cobrir''*/
+    background-size: cover; atributo cover seria ''Cobrir''
+    background-attachment: fixed;*/
+
+    /*Shorthand - background
+        A ordem é color > image > position > repeat > [size] > attachment
+        OBS: A propriedade size, mesmo na documentação dizendo que
+        funciona no shorthand do background, ela nao está funcionando, porem a forma de dar a volta nesse problema,
+        é colocar a propriedade size separadamente
+    */
+    
 }
 
 main{
