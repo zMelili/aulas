@@ -55,26 +55,46 @@ section{
     padding-bottom: 10vh;
 }
 
+section > p{
+    padding: 1em;
+}
+
 section.normal{
     color: black;
     background-color: white;
-    font-size: 2vw;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
 section.imagem{
-
     color: rgb(0, 0, 0);
     background-color: rgb(136, 135, 135);
-    font-size: 2vw;
-    font-weight: bold;
+    font-size: 1.2em;
+    font-weight: 600;
     font-family: var(--fonte2);
+    box-shadow: inset 9px 8px 14px 0px rgb(34, 34, 34);
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     width: 400px;
-    background-color: rgba(128, 128, 128, 0.342);
+    background-color: rgba(53, 53, 53, 0.568);
+    border-radius: 10px;
+    text-shadow: 0.5px 0.2px white;
 }
+
+section#retro1{
+    background-image: url(../imagem/retro1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+section#retro2{
+    background-image: url(../imagem/retro2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
 
 footer{
     padding: 5.5px;
