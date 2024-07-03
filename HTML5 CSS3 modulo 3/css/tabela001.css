@@ -29,12 +29,12 @@ tr{
     background-color: rgb(66, 66, 66);
 }
 
-#a1{
+#a1:hover{
     background-color: red;
 }
-#b1{
+#b1:hover{
     background-color: blue;
 }
-#c1{
+#c1:hover{
     background-color: green;
 }
