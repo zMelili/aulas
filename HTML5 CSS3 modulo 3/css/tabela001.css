@@ -4,7 +4,7 @@ body{
 
 table{
     width: 600px;
-    height: 50px;
+    height: 600px;
     border-collapse: collapse; /*Propriedade onde voce pode separar as bordas ou deixar elas coladas*/
 }
 
@@ -12,6 +12,8 @@ table{
 td{
     border: 2px solid;
     padding: 8px;
+    vertical-align:top ; /*Alinhamento Vertical*/
+    text-align: center; /*Alinhamento horizontal*/
 }
 
 tr{
