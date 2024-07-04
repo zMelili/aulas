@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    
+}
+thead, tfoot{
+    background-color: grey;
+    color: white;
+}
+
+td,th{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+tbody >tr > td{
+    border: 2px solid;
+    padding: 3px;
+    text-indent: 0.5em;
+}
+
+td.number{
+    text-align: center;
+    font-weight: bold;
+    text-indent: 0.5em;
+}

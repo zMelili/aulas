@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tabela002.css">
+    <title>Tabela Grande</title>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--Anatomia para tabelas grandes
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TH, TD, TH
+        
+        Ambos anatomicamente podem usar tr,td,th em sua estrutura
+    -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Unidade Federativa</th>
+                <th>População(Censo de 2022)</th>
+            </tr>
+        </thead>
+           
+        <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="number">44 411 238</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="number">20 538 718</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="number">16 054 524</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="number">14 141 626</td>
+                </tr>
+                <tr>
+                    <td>paraná</td>
+                    <td class="number">11 444 380</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td class="number">10 882 965</td>
+                </tr>
+                
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td class="number">117.503.451</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
