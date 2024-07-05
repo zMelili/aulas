@@ -1,0 +1,42 @@
+/*NÃO ESQUECER DO COMANDO "TEXT-INDENT" É oq da um espacinho no começo de um texto,ou da palavra que for usar*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    
+}
+thead, tfoot{
+    background-color: grey;
+    color: white;
+}
+
+td,th{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+tbody >tr > td{
+    border: 2px solid;
+    padding: 3px;
+    text-indent: 0.5em;
+}
+
+/*seleciona elementos com base em suas posições em um grupo de elementos irmãos. No Caso da tabela foi decido colocar como parametro (2n) que significa que de 2 em 2 ele vai colocar uma tarja cinza,podendo tambem ser de 3 em 3, 4 em 4 e etc.Que foi selecionado logo abaixo com "background-color"*/
+
+/*O "2n" significa oq na segunda linha quero que seja cinza, pula a primeira e coloca na segunda,pula a terceira e coloca na quarta e assim por diante,baseando-se no parametro colocado*/
+
+/*Os numeros tambem podem ser substituidos por par e impar em inglês que seria "odd" que é impar então deixará as linhas impares em cinza, e "even" que é par e deixará as linhas pares em cinza*/
+
+tbody >tr:nth-child(2n){
+    background-color: grey;
+}
+
+td.number{
+    text-align: center;
+    font-weight: bold;
+    text-indent: 0.5em;
+}

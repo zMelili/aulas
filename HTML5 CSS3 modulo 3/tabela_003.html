@@ -3,29 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/tabela002.css">
+    <link rel="stylesheet" href="css/tabela003.css">
     <title>Tabela Grande</title>
 </head>
 <body>
-    <h1>Uso de tabelas grandes</h1>
-    <!--Anatomia para tabelas grandes
-        TABLE
-            CAPTION(Nao se usa TR nem TD aqui)
-            THEAD (OBS: TH É USADO PARA TITULOS)
-                TR, TD, TH
-            TBODY (OBS: TD É USADO PARA DADOS,SEJA QUANTIDADE,TAMANHO,PORCENTAGEM E ETC E PARA DAR UM DADO DE ALGO EX: <TD>SÃO PAULO</TD> ISSO É UM DADO)
-                TR, TD, TH
-            TFOOT (OBS: TR É A LINHA ONDE SERÁ COLOCADO OS DADOS QUE SAO OS TD'S)
-                TH, TD, TH
-        
-        Ambos anatomicamente podem usar tr,td,th em sua estrutura
-
-        Agr o scope ja funciona de for diferente 
-        SCOPE="col" vem de coluna ou seja o as informações estão na mesma coluna para baixo
-        SCOPE="row" Já o row as informações estão na mesma linha para direta ou esquerda
-        Ex:     <th scope="row">Total de habitantes</th>
-                <td scope="row" class="number">117.503.451</td> Essas duas informações na tabela estão ao lado uma da outra
-    -->
+    <h1>Efeito zebrado na Tabela Grande</h1>
+    <!--Oque séria o efeito zebrado? Seria 
+    Efeito zebrado nada mais é do que TER CORES ALTERNADAS NAS LINHAS DE UMA PLANILHA OU TABELA
+    QUE AJUDAM A NÃO "EMBARALHAR" A LEITURA DE UMA LISTA DE DADOS-->
 
     <table>
         <caption>Tabela de população Brasileira</caption>
@@ -62,6 +47,10 @@
                     <td class="number">10 882 965</td>
                 </tr>
                 
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="number">9 058 931</td>
+                </tr>
         </tbody>
         
         <tfoot>
