@@ -1,0 +1,52 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table{
+    width: 440px;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.tabela2{
+    margin-top: 20px;
+}
+
+#num3{
+    background-color: red;
+}
+
+#num8{
+    background-color: blue;
+}
+
+#num10{
+    background-color: rgb(0, 255, 13);
+}
+
+#num11{
+    background-color: rgb(255, 0, 242);
+}
+
+#A{
+    background-color: rgb(255, 81, 0);
+}
+
+#B{
+    background-color: rgb(255, 238, 0);
+}
+
+#C{
+    background-color: rgb(0, 255, 157);
+}
+
+#N{
+    background-color: rgb(255, 0, 242);
+}
