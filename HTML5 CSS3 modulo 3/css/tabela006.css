@@ -1,0 +1,30 @@
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+caption{
+    border: 1px solid black;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+td,th{
+    border: 1px solid black;
+}
+
+th{
+    font-weight: bolder;
+}
+
+td{
+    text-indent: 5px;
+}
+
+.cnome{
+    background-color: lightgray;
+}
+
+.cgroup{
+    background-color: red;
+}
