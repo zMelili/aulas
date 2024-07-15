@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/iframe002.css">
-    <title>Aprendendo sobre iframes</title>
+    <link rel="stylesheet" href="css/iframe003.css">
+    <title>Navegando no iframe</title>
 </head>
 <body>
-    <h1>Estudos sobre iframes e conteudo local</h1>
+    <!--Nos podemos usar de link dentro do nosso iframe,no exemplo abaixo, criamos uma lista com 3 links que são arquivos locais, 
+    para eles aparecerem dentro do nosso iframe,porem para que isso aconteça,temos que dar um "name" para nossa tag iframe.Para que
+    quando dermos target nos link nos colocaremos o nome do nosso iframe, por exempo nesse exercicio colocamos o nome do iframe de "tela"
+    quando fomos na nossa li nos links que usamos de documentos locais, é usamos o elemento "target" colocamos o nome tela ou qualquer nome que voce tenha
+    dado para seu iframe-->
+    <h1>Faça uma escolha</h1>
 
-    <p>Esse conteudo essa localizado localmente
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quisquam rem unde reprehenderit eaque ipsa impedit sunt eligendi repellat, <br>cupiditate amet voluptatibus nam molestias dicta.  Illo accusamus nam perferendis nisi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Harum quam praesentium delectus ut omnis molestias, hic quod dolor ullam fugit quia. Eos alias, accusamus beatae cupiditate reiciendis inventore facere porro.
 
-        <iframe src="../HTML5 CSS3 modulo 3/tabela_004.html" frameborder="0"></iframe>
+        <ul>
+            <li><a href="paginas/pag001/index.html" target="tela">Primeiro link</a></li>
+            <li><a href="paginas/pag002/index.html" target="tela">Segundo link</a></li>
+            <li><a href="#">Terceiro link</a></li>
+        </ul>
 
     </p>
+
+    <p>
+         LLorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quisquam rem unde reprehenderit eaque ipsa impedit sunt eligendi repellat, <br>cupiditate amet voluptatibus nam molestias dicta.  Illo accusamus nam perferendis nisi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Harum quam praesentium delectus ut omnis molestias, hic quod dolor ullam fugit quia. Eos alias, accusamus beatae cupiditate reiciendis inventore facere porro.
+
+         <iframe src="" name="tela"></iframe>
+    </p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum quisquam rem unde reprehenderit eaque ipsa impedit sunt eligendi repellat, <br>cupiditate amet voluptatibus nam molestias dicta.  Illo accusamus nam perferendis nisi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Harum quam praesentium delectus ut omnis molestias, hic quod dolor ullam fugit quia. Eos alias, accusamus beatae cupiditate reiciendis inventore facere porro.</p>
 </body>
 </html>
