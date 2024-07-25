@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Mais sobre formulários e inputs</h1>
+    <input type="text" name="nome" id="nome" placeholder="Seu nome"> <br>
+    <input type="checkbox" name="box" id="ibox"> <br>
+    <input type="date" name="data" id="data"> <br>
+    <input type="button" value="Enviar..."> <br>
+    <input type="password" name="senha" id="senha" placeholder="Sua senha">
+    <!-------------------------------------------------------------------------->
+    <h1>-------------------------------------------------------------------------</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required minlength="8" maxlength="15" autocomplete="username">
+        </p>
+        <!--O Atributo "required" tem a função de nao deixar que formularios 
+         que contenham inputs do tipo login e senha sejam enviados vazios e sem dados-->
+
+         <!--O Atributo minlenght e maxlenghts são aqueles requisitos de minimo requerido pra senha
+         -->
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="isen" id="isen" required minlength="8" autocomplete="current-password">
+        </p>
+        <input type="submit" value="Enviar...">
+        <input type="reset" value="Limpar">
+    </form>
+
+</body>
+</html>

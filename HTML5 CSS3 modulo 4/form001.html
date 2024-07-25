@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <!--LABEL representa uma legenda para um item em uma interface de usuário. Ele pode estar associado com um elemento de controle, colocando este dentro do elemento label, ou usando o atributo for.
+    Voce associa basicamente um item a um input por exemplo, igual se voce estiver
+    criando um formulario e tem um <p>Nome</> e um input para esse nome,eles não
+    estão diretamente associados, porem se voce colocar o id do seu input dentro de um <label for="inome"></label> voce estará associoando um ao outro
+    LEMBRESSE: tem que ser o ID do input
+    -->
+
+
+    <h1>Meu primeiro Formulários</h1>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="Nome" id="inome"></p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <input type="submit" value="Enviar...">
+        </p>
+    </form>
+    <!-- usando o elemento "method" você terá duas opções 
+     GET -> que já é o padrão que se voce usar no formulario os dados apareceram na url, o uso do GET é mais para dados nao sensiveis, como nomes e etc e se limita
+     a 3000bits ou 3000 caracteres no caso de formularios.
+
+     POST -> Já o post os dados não apareceram na url porém nao significa que os dados
+     estão seguros, voce apenas ocultou eles da url, mas estão no inspecionar pagina.
+     Para uma segurança criptografada é necessario mais estudos sobre http"s" esse S 
+     é se security. O uso do POST é mais usado qnd se está usando algum dado sensivel
+     como senha,numeros de cartão,endereços, fotos,envio de arquivos, 
+     ou com mais de 3000bits
+     -->
+
+
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="ilogin">Login</label>
+            <input type="text" name="login" id="ilogin">
+        </p>
+        <p>
+            <label for="ipassword">Senha</label>
+            <input type="password" name="password" id="ipassword">
+        </p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
