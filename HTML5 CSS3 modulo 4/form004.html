@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplos d e Formulário</h1>
+    <form action="" method="get">
+        <!--Oque é o fieldset?
+        Já o fieldset é usado dentro de um form para agrupar elementos do form que são relacionados. Por padrão ele mostra visualmente esses elementos agrupados dentro de uma caixa com um título. é usado para agrupar elementos, assim como labels ( ), dentro de um formulário web.-->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="inome" id="inome" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="iemail" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="itel" id="itel" placeholder="(xx)xxxxx-xxxx">
+            </p>
+            <!--Estudar mais sobre RegEx-->
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

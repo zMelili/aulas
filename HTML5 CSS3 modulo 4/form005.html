@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Mais exemplos de Formulários</h1>
+    <form action="" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend> 
+            <!--input radio, só pode marcar UMA opção,e o NAME tem que ser igual para poder uma só opção se marcada-->
+            <input type="radio" name="sexo" id="isexmas" value="M"><label for="isexmas">Masculino</label>
+            <input type="radio" name="sexo" id="isexfem" value="F"><label for="isexfem">Feminino</label>
+        </fieldset>
+        <fieldset style="width: 400px;">
+            <legend>Qual seu esporte favorito?</legend>
+            <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label>
+            <input type="checkbox" name="esnatacao" id="iesnatacao"><label for="iesnatacao">Natação</label>
+            <input type="checkbox" name="esvolei" id="iesvolei"><label for="iesvolei">Volei</label>
+            <input type="checkbox" name="estenis" id="iestenis"><label for="iestenis">Tênis</label>
+        </fieldset>
+        <fieldset style="width: 400px;">
+            <legend>Quais sua materias favoritas?</legend>
+            <input type="checkbox" name="matportugues" id="imatportugues"><label for="imatportugues">Português</label>
+            <input type="checkbox" name="matmatematica" id="imatmatematica"><label for="imatmatematica">Matemática</label>
+            <input type="checkbox" name="matciencia" id="imatciencia"><label for="imatciencia">Ciência</label>
+            <input type="checkbox" name="matgeometria" id="imatgeometria"> <label for="imatgeometria">Geometria</label>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
