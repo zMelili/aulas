@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário</title>
+    <style>
+        div{
+            border: 1px solid black;
+            margin-top: -20px;
+            width: 280px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <div>
+        <form action="" method="get" autocomplete="on">
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="inome" id="inome" required maxlength="30" autocomplete="name" placeholder="Nome Completo">
+            </p>
+            <p>
+                <label for="imedia">Média</label>
+                <input type="number" name="imedia" id="imedia" min="0" max="10" step="0.1" value="5" required>
+            </p>
+            <p>
+                <label for="imes">Período Letivo</label>
+                <input type="month" name="imes" id="imes">
+            </p>
+            <p>
+                <label for="idia">Dia da Prova</label>
+                <input type="date" name="idia" id="idia">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
