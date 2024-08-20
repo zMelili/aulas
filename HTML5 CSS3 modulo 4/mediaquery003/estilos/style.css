@@ -1,8 +1,12 @@
   /* declarações Gerais */
+  /*Esse formato de media feature é MAIS SUGERIVEL PARA
+  PROJETOS PEQUENOS,POIS EM PROJETOS GRANDES VÃO TER MUITAS
+  CONFIGURAÇÕES DE ESTILO É PODE ACABAR FICANDO MUITO GRANDE
+  O SEU CSS E ACABANDO FICANDO MAIS CONFUSO*/
   *{
     margin: 0px;
     padding: 0px;
-}
+    }
 
 html, body{
     width: 100vw;
@@ -22,16 +26,16 @@ h1{
 
 /* declarações Retrato */
 @media screen and (orientation:portrait) {
-body{
-    background-image: url(./cev-portrait.jpg);
-    background-position: center bottom;
-}
+    body{
+        background-image: url(./cev-portrait.jpg);
+        background-position: center bottom;
+    }
 }
 
 /* declarações Paisagem */
 @media screen and (orientation:landscape) {
-body{
-    background-image: url(./cev-landscape.jpg);
-    background-position: left bottom;
-}
+    body{
+        background-image: url(./cev-landscape.jpg);
+        background-position: left bottom;
+    }
 }
