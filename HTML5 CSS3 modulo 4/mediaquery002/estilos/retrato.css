@@ -1,3 +1,16 @@
 @charset "UTF-8";
 
-/*Dispositivos deitados/landscape*/
+/*Dispositivos em pé/portrait*/
+
+body{
+    background-image: url(../cev-portrait.jpg);
+    background-position: center bottom;
+    
+}
+
+/*h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 4px #A772F2;
+    color:#283959; 
+}*/
