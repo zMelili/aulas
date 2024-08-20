@@ -1,0 +1,37 @@
+  /* declarações Gerais */
+  *{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #4AA2D9;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 5px #F24B4B;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+/* declarações Retrato */
+@media screen and (orientation:portrait) {
+body{
+    background-image: url(./cev-portrait.jpg);
+    background-position: center bottom;
+}
+}
+
+/* declarações Paisagem */
+@media screen and (orientation:landscape) {
+body{
+    background-image: url(./cev-landscape.jpg);
+    background-position: left bottom;
+}
+}
