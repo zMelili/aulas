@@ -1,7 +1,7 @@
-h1{                                 /*Se remover a linha border,a image some */
+h1{   /*Se remover a linha border,a image some */
     border: 20px solid transparent; /*LEMBRETE!!! Nao pode remover essa linha*/
     padding: 10px;
-    border-image-source: url('/imagens/borda.png');
+    border-image-source: url('../imagens/borda.png');
     border-image-slice: 27; /*Slice = fatiamente/Corte da imagem*/
     border-image-repeat: repeat;
     /*ShortHand do border image
